@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         PermissionUtils.init(this).permission(Manifest.permission.CAMERA)
                 .request((allGranted, grantedList, deniedList) -> Toast.makeText(this, "success", Toast.LENGTH_SHORT).show());
