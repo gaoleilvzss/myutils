@@ -10,7 +10,6 @@ import static com.winter.library.compress.ImageXTypeUtils.ImageType.GIF;
 import static com.winter.library.compress.ImageXTypeUtils.ImageType.JPG;
 import static com.winter.library.compress.ImageXTypeUtils.ImageType.PNG;
 import static com.winter.library.compress.ImageXTypeUtils.ImageType.WEBP;
-import static com.winter.myutils.compress.ImageXTypeUtils.ImageType.*;
 
 /**
  * @Author: 高磊
