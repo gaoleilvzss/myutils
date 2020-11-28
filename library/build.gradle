@@ -3,7 +3,7 @@ plugins {
 }
 apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.YourUsername'
+group='com.github.gaoleilvzss'
 
 android {
     compileSdkVersion 30
